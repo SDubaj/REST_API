@@ -49,7 +49,7 @@ namespace RESTAPI.Controllers
 
         // api/Words/TypeAnyWord
         // Get number of same words
-        [HttpGet("name/{name}")]
+        [HttpGet("numberOf/{name}")]
         public async Task<int> GetNumberOfWords(string name)
         {
             var items = await _context.Words.Where(p => p.Name == name).ToListAsync();
