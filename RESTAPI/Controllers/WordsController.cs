@@ -46,21 +46,6 @@ namespace RESTAPI.Controllers
         }
 
         
-       /* [HttpGet("ByName/{name}")]
-        public async Task<ActionResult<Word>> GetWordByName(string name)
-        {
-            var item = await _context.Words
-                     .FirstOrDefaultAsync(i => i.Name == name);
-            *//*var uniqueCategories = _context.GroupBy(x => x.Id).Select(y => y.First()).Distinct();*//*
-            var word = await _context.Words.FindAsync(name);
-
-            if (word == null)
-            {
-                return NotFound();
-            }
-
-            return item;
-        }*/
 
         // api/Words/TypeAnyWord
         // Get number of same words
