@@ -4,7 +4,7 @@
 
 # How to test the REST API ? 
 
-1. Download project from github to your computer.
+1. Download project from github onto your computer.
 2. Unzip the package with files.
 3. Run file named "RESTAPI.sln" with VS 2019.
 4. When project is ready, build and run it.
