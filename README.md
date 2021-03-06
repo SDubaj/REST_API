@@ -11,7 +11,7 @@
 5. Run Postman to add new word to collection.
 6. Choose POST request, then enter URL e.g. https://localhost:YOUR_PORT/api/Words
 7. ![image](https://user-images.githubusercontent.com/38839364/110171680-5e2a6780-7dfc-11eb-8963-ed2fe959ae1e.png)
-8. In body, enter: { "name" : "<AnyWord> } and press SEND to create new object with id and any word you wan(you can do it how many times you want)
+8. In body, enter: { "name" : "<AnyWord> } and press SEND to create new object with id and any word you want
 9. If you want to check existing data, change request to GET, and enter suitable URL e.g.:
       - https://localhost:44367/api/Words - to get all existing words,
       - https://localhost:44367/api/Words/{id} - to get object with exact id,
